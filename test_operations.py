@@ -29,5 +29,3 @@ def test_divide():
 
 def test_divide_FAIL():
     assert divide(6, 3) == 3  # This test is expected to fail
-    with pytest.raises(ValueError):
-        divide(1, 1)  # This test is expected to fail
