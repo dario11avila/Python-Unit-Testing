@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# VSCode settings
+.vscode/
+
+# Entornos virtuales
+venv/
+env/
+
+# Archivos de prueba y resultados
+*.log
+*.pytest_cache/
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md
