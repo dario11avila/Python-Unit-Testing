@@ -13,7 +13,7 @@ Este proyecto es una demostración de pruebas unitarias en Python usando `pytest
 1. Instala las dependencias:
 
    ```bash
-   pip install pytest
+   pip install -r requirements.txt
    ```
 2. Ejecuta los tests:
 
@@ -23,7 +23,6 @@ Este proyecto es una demostración de pruebas unitarias en Python usando `pytest
 3. (Opcional) Ejecuta los tests con cobertura y mostrando en terminal las líneas faltantes:
 
    ```bash
-   pip install pytest-cov
    pytest --cov=./ --cov-report=term-missing 
    ```
 
